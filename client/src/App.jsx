@@ -1,7 +1,7 @@
 // src/App.js
 import { useState } from 'react';
 import Web3 from 'web3';
-import VendingMachineContract from './contracts/VendingMachine.json'; // Import the JSON file of your contract
+import VendingMachineContract from './contract/VendingMachine.json'; // Import the JSON file of your contract
 
 function App() {
   const [web3, setWeb3] = useState(null);
